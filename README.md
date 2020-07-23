@@ -12,5 +12,3 @@
 * 定期運行爬蟲程式爬取資料並儲存至資料庫運行
     * 使用`crontab`
     * custom management command：`python manage.py crawling`    
-* 原可部署至Heroku上，但新增立即通知功能後部署失敗
-    * 部署時是使用[Heroku Scheduler Add-on](https://devcenter.heroku.com/articles/scheduler#defining-tasks)定期運行爬蟲程式
